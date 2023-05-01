@@ -9,3 +9,5 @@ if (x > y) {
 else {
     console.log('Y is greater');
 }
+
+export {};
