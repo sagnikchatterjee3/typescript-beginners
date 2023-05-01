@@ -1,0 +1,7 @@
+- Functions are used for reusuable peice of code.
+- Call or event or do some business logic also.
+- Function , function keyword, function parameters (input values to the function)
+- and can return some value also.
+- the parameter type and the return type is strict about that 
+- i.e what type of data it can receive and what type of data it can return back.
+- 
