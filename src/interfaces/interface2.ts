@@ -5,3 +5,11 @@ interface Product {
     price: number;
 }
 
+let product1: Product = {
+    id: 123,
+    name: "tring tring",
+    description: "A bell",
+    price: 1230,
+}
+
+console.log(product1);
