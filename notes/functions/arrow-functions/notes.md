@@ -1,0 +1,6 @@
+- Arrow functions are hsortucts to use anonymous function.
+- No function keywords,no brakcets and no return stmt .
+- same as regular functions.
+- return is implicit
+- can use return stmt, then have to use circular brackets.
+-  
