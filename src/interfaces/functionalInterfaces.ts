@@ -27,3 +27,23 @@ sub = function (a: number, b: number): number {
 //return types in functional interfaces
 // in Add we have void return type -> same as not defining any return type(void)
 // 
+
+
+// interfaces can also have methods for them 
+
+interface UserInterface {
+    name: string;
+    id: number;
+    display(): void;
+}
+
+let product2: UserInterface = {
+    name: "King Kong",
+    id: 123,
+    display() {
+        console.log(`Product 2 ${this.name} and ${this.id}`);
+    }
+}
+
+console.log(product2);
+
