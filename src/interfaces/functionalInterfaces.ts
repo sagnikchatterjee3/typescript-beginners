@@ -24,4 +24,6 @@ sub = function (a: number, b: number): number {
     return a - b;
 }
 
-
+//return types in functional interfaces
+// in Add we have void return type -> same as not defining any return type(void)
+// 
