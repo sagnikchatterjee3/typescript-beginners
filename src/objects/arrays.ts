@@ -17,5 +17,12 @@ courses.forEach((course: string) => {
     }
 })
 
+// destructuring of arrays 
+// i.e we can assign individual elements of arrays to seperate instances of our code 
+// start with left elements and goes on 
+let [a,b,c]= courses;
+console.log(`${a} -->  ${b}  <--  ${c}`);
+
+
 
 export { };
