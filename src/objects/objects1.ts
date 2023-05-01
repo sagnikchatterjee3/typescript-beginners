@@ -7,3 +7,4 @@ let student = {
 
 //to access the object using the dot notation 
 console.log(`Name: ${student.name} -- Age: ${student.age} -- Score :${student.score}`);
+export {};
