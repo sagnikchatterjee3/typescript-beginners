@@ -9,3 +9,5 @@ for(let item in student){
     console.log(item);
   //  console.log(student[item]);
 }
+
+export {};
