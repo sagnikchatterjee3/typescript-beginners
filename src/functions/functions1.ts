@@ -3,3 +3,5 @@ function hello(): string {
 }
 
 console.log(hello());
+
+export {};
