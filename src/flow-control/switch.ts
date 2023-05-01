@@ -13,3 +13,8 @@ switch (x) {
         console.log("No case matched"); break;
 }
 
+// break used to disrupt case flow and stop the iteration if some condition reached.
+// if same logic for multiple cases, we can remove the break from it and let it fall through.
+
+
+export {};
