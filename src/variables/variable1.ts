@@ -42,3 +42,4 @@ let arr2: Array<any> = [1,null,false,"ok",{productName: 'nothing'}];
 arr2.forEach((item) => {
     console.log(item);
 })
+
