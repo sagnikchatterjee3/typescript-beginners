@@ -7,3 +7,5 @@ const anon1 = function (name: string): string {
 //these anonymous functions are only useful in used inside a varibale or a callback functions.
 
 console.log(anon1("mr crabs"));
+
+export {};
