@@ -43,3 +43,5 @@ arr2.forEach((item) => {
     console.log(item);
 })
 
+export{};
+

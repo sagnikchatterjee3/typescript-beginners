@@ -14,3 +14,5 @@ class Student {
         this.num = num;
     }
 }
+
+export {};

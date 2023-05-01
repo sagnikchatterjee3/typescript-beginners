@@ -23,3 +23,5 @@ enum Weekends{
 
 
 console.log(Weekends.Sunday);
+
+export {};

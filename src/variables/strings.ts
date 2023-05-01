@@ -9,3 +9,5 @@ console.log(github.charAt(1));
 console.log(url.length);
 console.log(github.indexOf('s'));
 console.log(url.lastIndexOf('i'));
+
+export {};

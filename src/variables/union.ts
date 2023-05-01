@@ -7,3 +7,6 @@ sn = "bharath";
 console.log(sn);
 sn = 10;
 console.log(sn);
+
+
+export {};

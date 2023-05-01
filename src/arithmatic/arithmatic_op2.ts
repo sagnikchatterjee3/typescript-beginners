@@ -7,3 +7,5 @@ console.log(num3);
 
 num3 += num2 ;
 console.log(num3);
+
+export {} ;
