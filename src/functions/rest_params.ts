@@ -16,5 +16,15 @@ const product = function(...nums: any){
     
 }
 
+//specific parameters after the rest parameter
+//the rest param should always the last param in our function.
+//also the rest param should always be of a array type.
+
+const product2 = function(x:number,y:number,...nums:any){
+    //....TDD .
+}
+
+
+
 export {};
 
