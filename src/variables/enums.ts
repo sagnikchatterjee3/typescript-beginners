@@ -21,3 +21,5 @@ enum Weekends{
     Sunday
 }
 
+
+console.log(Weekends.Sunday);
