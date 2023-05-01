@@ -15,4 +15,16 @@ display(123, "lambda");
 
 calculator(display);
 
+//function can also return back another function that can be invoked 
+
+function inverseCalculator(): any {
+    function subtract(num1: number,num2: number):number {
+        return num1-num2;
+    }
+    return subtract;
+}
+
+const sub = inverseCalculator();
+console.log(sub(20,5));
+
 export { };
