@@ -12,7 +12,7 @@ console.log(`Name: ${student.firstName} -- Age: ${student.age} -- Score :${stude
 
 
 // adding destrucring the object 
-
+// have to use the exact property name in object destrutring 
 let {firstName,lastName} = student;
 
 console.log(firstName);
