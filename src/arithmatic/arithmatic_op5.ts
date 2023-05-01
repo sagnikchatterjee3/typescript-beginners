@@ -7,7 +7,7 @@
 
 
 let x: number = 20;
-let arg2: number = 10;
+let y: number = 10;
 
-
+(x>y)?console.log("X is greater than Y"): console.log("Y is gerater or equal to X");
 export {};
