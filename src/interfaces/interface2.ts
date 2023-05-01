@@ -3,6 +3,8 @@ interface Product {
     name: string;
     description: string;
     price: number;
+    //optional properties
+    location?: string;
 }
 
 let product1: Product = {
