@@ -21,3 +21,6 @@ console.log(levels.toString());
 console.log(levels.splice(2,3,128));
 console.log(levels.toString());
 
+console.log(levels.push(123,1231231231));
+//remove from the end 
+console.log(levels.pop());
