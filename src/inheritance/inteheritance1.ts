@@ -15,32 +15,43 @@ class BMW {
         console.log("Stop");
     }
 
-    constructor(make: string,model:string,year:string){
+    constructor(make: string, model: string, year: string) {
         this.make = make;
         this.year = year;
         this.model = model;
     }
+
 }
 
 class ThreeSeries extends BMW {
     //BMW come for free here 
     cruiseControlEnabled!: boolean;
-    constructor(make: string,model: string, year: string,cruiseControlEnabled: boolean){
+    constructor(make: string, model: string, year: string, cruiseControlEnabled: boolean) {
         //have to extend the parent class constructor using super()
-        super(make,model,year);
+        super(make, model, year);
         this.cruiseControlEnabled = cruiseControlEnabled;
+    }
+
+    cruiseControl() {
+        this.cruiseControlEnabled = true;
+        console.log(`Cruise Control is Enabled.`);
     }
 }
 
 class FiveSeries extends BMW {
     pakingAssistEnabled!: boolean;
-    constructor(make: string,model: string, year: string,parkingAssistEnabled: boolean){
+    constructor(make: string, model: string, year: string, parkingAssistEnabled: boolean) {
         //have to extend the parent class constructor using super()
-        super(make,model,year);
+        super(make, model, year);
         this.pakingAssistEnabled = parkingAssistEnabled;
+    }
+
+    parkAssist() {
+        this.pakingAssistEnabled = true;
+        console.log(`Parking Assist is Enabled.`);
     }
 }
 
 
-let threeSeires = new ThreeSeries("Germany","i3","2018",false);
+let threeSeires = new ThreeSeries("Germany", "i3", "2018", false);
 console.log(threeSeires.cruiseControlEnabled);
