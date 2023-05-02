@@ -7,4 +7,6 @@
 - Private Properties:
   - Only accesible within the class itself and not outisde of it.
   - To access the properties outside of the class, have to use getters and setters.
-  - 
+  
+- Staic class field is a field that does not require object initization and can simply be called as a regular method.
+- 
