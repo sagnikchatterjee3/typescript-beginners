@@ -8,7 +8,13 @@ class Passenger {
         this.frequentFlyerNo = frequentFlyerNo;
     }
 
+
+    //adding methods for this class :- Function Properties
+    display(){
+        console.log(`${this.firstName} ${this.lastName} ${this.frequentFlyerNo}`);
+    }
 }
 
 let passenger1: Passenger = new Passenger("Rohan","Sharma",3456);
-console.log(passenger1.firstName + " " + passenger1.lastName + " " + passenger1.frequentFlyerNo);
+
+passenger1.display();
