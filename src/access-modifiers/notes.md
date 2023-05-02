@@ -6,3 +6,5 @@
 - Encapsulation:- Protecting the properties and the funcionality of obejcts from other objects from accessing it.
 - Private Properties:
   - Only accesible within the class itself and not outisde of it.
+  - To access the properties outside of the class, have to use getters and setters.
+  - 
