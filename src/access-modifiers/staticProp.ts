@@ -4,6 +4,11 @@ class Check {
     customerName!: string;
     accNo!: number;
     routingNo!: number;
+
+    display(){
+        //methods to print static field.
+        console.log(Check.bankName);
+    }
 }
 
 
@@ -12,3 +17,6 @@ check.accNo;
 
 //can use the stastic property directly using class name 
 console.log(Check.bankName);
+
+//similalry using a object based approach
+new Check().display();
