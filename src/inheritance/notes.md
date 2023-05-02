@@ -3,3 +3,6 @@
 
 - ReUsability and IS-A Relation.
 
+- Overriding in Classes :
+  - Want to use the methods name of the parent class but want differnet functionality form the child class.
+  - 

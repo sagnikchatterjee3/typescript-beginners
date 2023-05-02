@@ -36,6 +36,15 @@ class ThreeSeries extends BMW {
         this.cruiseControlEnabled = true;
         console.log(`Cruise Control is Enabled.`);
     }
+
+
+    start():void {
+        console.log('Button Start');
+    }
+
+    stop(): void {
+        console.log("Button Stop");
+    }
 }
 
 class FiveSeries extends BMW {
@@ -49,6 +58,13 @@ class FiveSeries extends BMW {
     parkAssist() {
         this.pakingAssistEnabled = true;
         console.log(`Parking Assist is Enabled.`);
+    }
+
+    start(): void {
+        console.log('Remote Start');
+    }
+    stop(): void {
+        console.log("Remote Stop");
     }
 }
 
